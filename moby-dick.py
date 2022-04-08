@@ -9,9 +9,10 @@
 # The program should take the filename from an argument on the command line:
 
 import os
-x = 'C:/Users/paulb/PS 1/my-work/week 07'
-os.chdir(x)
-#changing directory to where file is saved
+Dir = (input("Enter Directory with /:"))
+# or you can use this to define a static directory x = 'C:/Users/ciarad/PS 1/my-work/week 07'
+os.chdir(Dir)
+
 filename = (input("Enter file: "))
 print (filename)
 #request for filename from command line
